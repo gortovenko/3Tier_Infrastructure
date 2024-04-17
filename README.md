@@ -38,6 +38,10 @@ No inputs.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_aws_eip_id"></a> [aws\_eip\_id](#output\_aws\_eip\_id) | n/a |
+| <a name="output_aws_eip_public_ip"></a> [aws\_eip\_public\_ip](#output\_aws\_eip\_public\_ip) | n/a |
+| <a name="output_aws_igw_id"></a> [aws\_igw\_id](#output\_aws\_igw\_id) | n/a |
+| <a name="output_aws_nat_id"></a> [aws\_nat\_id](#output\_aws\_nat\_id) | n/a |
 | <a name="output_aws_subnet_pub_1_id"></a> [aws\_subnet\_pub\_1\_id](#output\_aws\_subnet\_pub\_1\_id) | n/a |
 | <a name="output_aws_subnet_pub_2_id"></a> [aws\_subnet\_pub\_2\_id](#output\_aws\_subnet\_pub\_2\_id) | n/a |
 | <a name="output_aws_subnet_pvt_1_id"></a> [aws\_subnet\_pvt\_1\_id](#output\_aws\_subnet\_pvt\_1\_id) | n/a |
