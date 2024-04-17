@@ -1,4 +1,5 @@
 output "aws_vpc_id" {
+    description             = "VPC ID"
     value                   = aws_vpc.three-tier-vpc.id
 }
 
@@ -6,6 +7,10 @@ output "aws_vpc_cidr_block" {
     value                   = aws_vpc.three-tier-vpc.cidr_block
 }
 
+output "aws_subnet_pub_ids" {
+    value                   = aws_subnet.three-tier-pub-sub[*].id
+  
+}
 output "aws_subnet_pub_1_id" {
     value                   = aws_subnet.three-tier-pub-sub[0].id
 }
@@ -46,4 +51,18 @@ output "aws_nat_id" {
 
 output "aws_igw_id" {
     value                   = aws_internet_gateway.three-tier-igw.id
+}
+
+output "aws_security_group_public_sg_ids" {
+    value                   = aws_security_group.public_sg.id
+}
+
+output "aws_subnet_prv_ids" {
+    value                   = aws_subnet.three-tier-pvt-sub[*].id
+  
+}
+
+output "aws_security_group_private_sg_ids" {
+    value                   = aws_security_group.private_sg.id
+  
 }
