@@ -30,7 +30,7 @@ No inputs.
 No outputs.
 ## Requirements
 
-No requirements.
+Setup SM values for DB - user and password ( module 3-tier/secrets-manager.tf)
 
 ## Providers
 
