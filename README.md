@@ -1,3 +1,5 @@
+![AWS 3Tier Infrastructure](images/3tier.png)
+
 ## Requirements
 
 | Name | Version |
